@@ -1,0 +1,234 @@
+html{
+    scroll-behavior: smooth;
+ }
+ body{
+      overflow-x: hidden;
+    }
+.path , .path-sec{
+ stroke-dashoffset: 9937;
+          stroke-dasharray: 9937;
+  }
+
+  .bnb-path,  .bnb-path-o{
+    stroke-dashoffset: 8000;
+  stroke-dasharray: 8000;
+  }
+
+
+  .path-double,  .path-double-2 {
+  stroke-dashoffset: 3000;
+  stroke-dasharray: 3000;
+  }
+
+
+  .pathsl,.path2 {
+    stroke-dashoffset: 10000;
+    stroke-dasharray: 10000;
+    }
+  .path3 {
+  stroke-dashoffset: 15000;
+  stroke-dasharray:15000;
+  }
+  .path31 {
+  stroke-dashoffset: 6000;
+  stroke-dasharray:6000;
+  }
+
+   .path-three {
+  stroke-dashoffset: 15000;
+  stroke-dasharray:15000;
+  }
+  .path4 {
+    stroke-dashoffset: 30000;
+    stroke-dasharray:30000;
+    }
+
+     .path-four {
+    stroke-dashoffset: 30000;
+    stroke-dasharray:30000;
+    }
+ 
+
+  .draw-a-line {
+      position: absolute;
+      top: 690px;
+      z-index: -1;
+      left: -90px;
+      width: 100%;
+  }
+  .draw-bnb{
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    left: -80px
+  }
+
+  .draw-a-line svg{
+      width: 100%;
+      max-width: 1200px;
+   }
+  .draw-another-line svg{
+      width: 100%;
+      max-width: 900px;
+  }
+  .space-forlogo{
+  display: block;
+
+      height: 280px;
+  }
+
+  .section {
+  padding: 20px;
+  box-sizing: border-box;
+  }
+
+  .vertical-center {
+  display: table;
+  height: 100%;
+  width: 100%;
+  }
+
+  .vertical-center__inner {
+  display: table-cell;
+  vertical-align: middle;
+  }
+
+  .section--full {
+  text-align: center;
+  }
+
+  .section--full,
+  .section--vertical {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  }
+
+  .block-list {
+  white-space: nowrap;
+  }
+
+  .block-list__item {
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  display: inline-block;
+  white-space: normal;
+  padding-right: 20px;
+  position: relative;
+  max-width:1480px;
+  }
+
+  .block-list__item-inner {
+
+  width: 100%;
+  height: 100%;
+  max-width: 1170px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 120px
+  }
+
+  .block-list__item:first-child {
+  margin-left: 0;
+  }
+
+  #third {
+  background: #f5f5f5;
+  }
+
+  .scrollend {
+  transform: translateX(-1500px);
+  }
+  .draw-sec-line,.draw-another-line{
+      position: absolute;
+      z-index: -1;
+      top: 140px;
+      left:0%;
+      max-width: 1170px;
+      width: 100%;
+      right: 0;
+      margin: 0 auto;
+  }
+
+  .draw-another-line{
+      left: 0%; 
+      top: 90px;
+  }
+
+  .draw-sec-line svg{
+      width: 100%;
+      max-width: 900px;
+  }
+  .impressed-india{
+      position: relative;
+  }
+  .draw-last-line{
+      position: absolute;
+top: -230px;
+left: -172px;
+width: 100%;
+text-align: center
+  }
+
+     .draw-last-line svg{
+         max-width: 900px;
+     }
+
+     .draw-mob-line svg, .draw-bnb-mobile svg, .draw-lastline-mob svg, .draw-sec-mobile svg, .draw-uber-moblie svg{
+         width: 100%
+     }
+.draw-sec-mobile{
+     position: absolute;
+     top: 70px;
+}
+.draw-mob-line{
+     position: absolute;
+     top: 570px;}
+
+.draw-bnb-mobile{
+     position: absolute;
+    top: 70px;}
+
+.draw-lastline-mob{
+    position: absolute;
+    top: 218px;
+    width: 100%;
+    left: 15px;
+}
+.draw-uber-moblie {
+    position: absolute;
+    top: 90px;
+}
+
+.mob-first{
+    stroke-dashoffset: 6000;
+    stroke-dasharray: 6000;
+}
+
+.bnb-mobile{
+    stroke-dashoffset: 3000;
+    stroke-dasharray: 3000;  
+}
+.course{
+    stroke-dashoffset: 6000;
+    stroke-dasharray: 6000;  
+}
+
+.uber{
+    stroke-dashoffset: 10000;
+    stroke-dasharray: 10000;  
+}
+
+.last-mob{
+    stroke-dashoffset: 10000;
+    stroke-dasharray: 10000;  
+}
+@media screen and (max-width:768px){
+ .draw-lastline-mob{
+     top: 35px;
+ }
+.block-list__item{
+ height: auto;
+ }
+}
